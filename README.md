@@ -1,58 +1,51 @@
-# [Bazel](https://bazel.build)
-
-*{Fast, Correct} - Choose two*
-
-Build and test software of any size, quickly and reliably.
-
-* **Speed up your builds and tests**:
-  Bazel rebuilds only what is necessary.
-  With advanced local and distributed caching, optimized dependency analysis and
-  parallel execution, you get fast and incremental builds.
-
-* **One tool, multiple languages**: Build and test Java, C++, Android, iOS, Go,
-  and a wide variety of other language platforms. Bazel runs on Windows, macOS,
-  and Linux.
-
-* **Scalable**: Bazel helps you scale your organization, codebase, and
-  continuous integration solution. It handles codebases of any size, in multiple
-  repositories or a huge monorepo.
-
-* **Extensible to your needs**: Easily add support for new languages and
-  platforms with Bazel's familiar extension language. Share and re-use language
-  rules written by the growing Bazel community.
-
-## Getting Started
-
-  * [Install Bazel](https://bazel.build/install)
-  * [Get started with Bazel](https://bazel.build/start)
-  * Follow our tutorials:
-
-    - [Build C++](https://bazel.build/tutorials/cpp)
-    - [Build Java](https://bazel.build/tutorials/java)
-    - [Android](https://bazel.build/tutorials/android-app)
-    - [iOS](https://github.com/bazelbuild/rules_apple/blob/master/doc/tutorials/ios-app.md)
-
-## Documentation
-
-  * [Bazel command line](https://bazel.build/docs/user-manual)
-  * [Rule reference](https://bazel.build/reference/be/overview)
-  * [Use the query command](https://bazel.build/reference/query)
-  * [Extend Bazel](https://bazel.build/rules/concepts)
-  * [Write tests](https://bazel.build/reference/test-encyclopedia)
-  * [Roadmap](https://bazel.build/community/roadmaps)
-  * [Who is using Bazel?](https://bazel.build/community/users)
-
-## Reporting a Vulnerability
-
-To report a security issue, please email security@bazel.build with a description
-of the issue, the steps you took to create the issue, affected versions, and, if
-known, mitigations for the issue. Our vulnerability management team will respond
-within 3 working days of your email. If the issue is confirmed as a
-vulnerability, we will open a Security Advisory. This project follows a 90 day
-disclosure timeline.
-
-## Contributing to Bazel
-
-See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-[![Build status](https://badge.buildkite.com/1fd282f8ad98c3fb10758a821e5313576356709dd7d11e9618.svg?status=master)](https://buildkite.com/bazel/bazel-bazel)
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><a href="https://bazel.build" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">巴塞尔</font></font></a></h1><a id="user-content-bazel" class="anchor" aria-label="永久链接：巴塞尔" href="#bazel"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{快速、正确} - 选择两个</font></font></em></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速可靠地构建和测试任何规模的软件。</font></font></p>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加快构建和测试速度</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Bazel 仅重建必要的内容。借助先进的本地和分布式缓存、优化的依赖关系分析和并行执行，您可以获得快速的增量构建。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一种工具，多种语言</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：构建和测试 Java、C++、Android、iOS、Go 以及各种其他语言平台。 Bazel 在 Windows、macOS 和 Linux 上运行。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可扩展</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Bazel 帮助您扩展您的组织、代码库和持续集成解决方案。它可以处理多个存储库或大型单一存储库中任何大小的代码库。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可根据您的需求进行扩展</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：使用 Bazel 熟悉的扩展语言轻松添加对新语言和平台的支持。共享和重用不断壮大的 Bazel 社区编写的语言规则。</font></font></p>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor" aria-label="永久链接：开始使用" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li>
+<p dir="auto"><a href="https://bazel.build/install" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装巴泽尔</font></font></a></p>
+</li>
+<li>
+<p dir="auto"><a href="https://bazel.build/start" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开始使用 Bazel</font></font></a></p>
+</li>
+<li>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请遵循我们的教程：</font></font></p>
+<ul dir="auto">
+<li><a href="https://bazel.build/tutorials/cpp" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建C++</font></font></a></li>
+<li><a href="https://bazel.build/tutorials/java" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建Java</font></font></a></li>
+<li><a href="https://bazel.build/tutorials/android-app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安卓</font></font></a></li>
+<li><a href="https://github.com/bazelbuild/rules_apple/blob/master/doc/tutorials/ios-app.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iOS系统</font></font></a></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://bazel.build/docs/user-manual" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">巴泽尔命令行</font></font></a></li>
+<li><a href="https://bazel.build/reference/be/overview" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规则参考</font></font></a></li>
+<li><a href="https://bazel.build/reference/query" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用查询命令</font></font></a></li>
+<li><a href="https://bazel.build/rules/concepts" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扩展巴泽尔</font></font></a></li>
+<li><a href="https://bazel.build/reference/test-encyclopedia" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编写测试</font></font></a></li>
+<li><a href="https://bazel.build/community/roadmaps" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图</font></font></a></li>
+<li><a href="https://bazel.build/community/users" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谁在使用 Bazel？</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报告漏洞</font></font></h2><a id="user-content-reporting-a-vulnerability" class="anchor" aria-label="永久链接：报告漏洞" href="#reporting-a-vulnerability"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要报告安全问题，请发送电子邮件至</font></font><a href="mailto:security@bazel.build"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">security@bazel.build</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并附上问题描述、创建问题所采取的步骤、受影响的版本以及问题的缓解措施（如果已知）。我们的漏洞管理团队将在收到您的电子邮件后 3 个工作日内回复。如果该问题被确认为漏洞，我们将发布安全通报。该项目遵循 90 天的披露时间表。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 Bazel 做出贡献</font></font></h2><a id="user-content-contributing-to-bazel" class="anchor" aria-label="永久链接：为 Bazel 做出贡献" href="#contributing-to-bazel"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="/bazelbuild/bazel/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTRIBUTING.md</font></font></a></p>
+<p dir="auto"><a href="https://buildkite.com/bazel/bazel-bazel" rel="nofollow"><img src="https://camo.githubusercontent.com/f83039f8845f0ca6f86734eedfb1e738d4861e2fda633f380643ff4962f9d1e1/68747470733a2f2f62616467652e6275696c646b6974652e636f6d2f31666432383266386164393863336662313037353861383231653533313335373633353637303964643764313165393631382e7376673f7374617475733d6d6173746572" alt="构建状态" data-canonical-src="https://badge.buildkite.com/1fd282f8ad98c3fb10758a821e5313576356709dd7d11e9618.svg?status=master" style="max-width: 100%;"></a></p>
+</article></div>
